@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#1f2229"/><circle cx="28" cy="28" r="13" fill="none" stroke="#e8b04a" stroke-width="5"/><path d="M37.5 37.5 L48 48" stroke="#e8b04a" stroke-width="6" stroke-linecap="round"/><path d="M22 28h12M28 22v12" stroke="#eceae6" stroke-width="3.5" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c1f45"/><stop offset="1" stop-color="#10201a"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#c98bd6" stop-opacity="0.45"/><stop offset="1" stop-color="#c98bd6" stop-opacity="0"/></radialGradient>
+<clipPath id="frame"><rect width="64" height="64" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="64" height="64" fill="url(#sky)"/>
+<circle cx="32" cy="27" r="28" fill="url(#glow)"/>
+<circle cx="32" cy="27" r="15.5" fill="#ecc9ef"/>
+<ellipse cx="32" cy="67" rx="34" ry="22" fill="#1b3024"/>
+<path d="M-1 -1L8 -1C6.5 20 5.5 42 9 65L-1 65Z" fill="#0b1410"/>
+<path d="M65 -1L56.5 -1C58 22 58.5 44 55 65L65 65Z" fill="#0b1410"/>
+<g transform="rotate(16 25.5 57.5)" fill="#d7b4e4" opacity="0.75"><ellipse cx="25.5" cy="56.2" rx="1.45" ry="2.05"/><ellipse cx="25.5" cy="59.5" rx="1.15" ry="1.05"/></g>
+<g transform="rotate(10 32.5 53)" fill="#d7b4e4" opacity="0.75"><ellipse cx="32.5" cy="51.7" rx="1.45" ry="2.05"/><ellipse cx="32.5" cy="55" rx="1.15" ry="1.05"/></g>
+<g transform="rotate(16 27 47.5)" fill="#d7b4e4" opacity="0.75"><ellipse cx="27" cy="46.2" rx="1.45" ry="2.05"/><ellipse cx="27" cy="49.5" rx="1.15" ry="1.05"/></g>
+<path d="M20.39 27.72C20.82 18.26 25.98 13.1 32 13.1C38.02 13.1 43.18 18.26 43.61 27.72L36.3 27.72L32 32.88L27.7 27.72Z" fill="#0b0c0f"/>
+<path d="M9.64 17.4C16.52 20.84 25.12 25.14 32 30.73C38.88 25.14 47.48 20.84 54.36 17.4C54.36 26.86 44.9 33.74 32 35.89C19.1 33.74 9.64 26.86 9.64 17.4Z" fill="#0b0c0f"/>
+<path d="M9.64 17.4C16.52 20.84 25.12 25.14 32 30.73C38.88 25.14 47.48 20.84 54.36 17.4" fill="none" stroke="#e8b04a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
